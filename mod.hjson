@@ -1,0 +1,6 @@
+name: "script-niirk-mod"
+displayName: "[green]Testing... Testing..." 
+author: "[green]Niirk"
+description: "[green]I am learning SCRIPT"
+version: "1.0"
+minGameVersion: "103"
