@@ -1,0 +1,26 @@
+type: Revenant
+ name: EMP fighter
+ description: EMP missiles
+ drag: 0.1
+ maxSpeed: 0.5
+ speed: 0.1
+ mass: 1
+ hitsize: 16
+ health: 680
+ flying: true
+ rotateWeapon: false
+ engineOffset: 8
+ engineSize: 4
+ rotatespeed: 3
+ baseRotateSpeed: 1
+ shootCone: 60
+  weapon: {
+  name: empLauncher
+  length: 0
+  reload: 60
+  width: 9
+  alternate: true
+  recoil: 3
+  ejectEffect: shellEjectBig
+  shootSound: artillery
+}
