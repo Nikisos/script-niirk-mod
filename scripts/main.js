@@ -1,2 +1,2 @@
-require("customEffects3107")
+require("empfighter")
 require("scatter-silo")
