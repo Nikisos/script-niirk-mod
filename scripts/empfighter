@@ -18,3 +18,5 @@ empMissile.homingPower = 1;
 empMissile.homingRange = 150;
 empMissile.hitEffect = blastExplosion;
 empMissile.despawnEffect = blastExplosion;
+empMissile.status = emp
+empMissile.statusDuration = 60
