@@ -21,11 +21,7 @@ ammo: {
 	  backColor: 1000aa
 	  frontColor: 1000aa
 	  ammoMultiplier: 6
-	 status: {
-	   damageMultiplier: 0
-	   speedMultuplier: 0
-	   color: blue
-	 }
+	 status: melting
   }
 }
 requirements: [
