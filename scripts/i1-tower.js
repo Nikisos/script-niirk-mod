@@ -5,4 +5,5 @@ i1-laser.bulletHeight = 80;
 i1-laser.bulletShrink = 0;
 i1-laser.lifetime = 1;
 i1-laser.despawnEffect = Fx.none;
+const i1-tower = extend(laserTurret, {});
 i1-tower.shootType = i1-laser;
