@@ -1,0 +1,35 @@
+name: Universal Turret
+description: Turret for test
+type: itemTurret
+health: 500
+size: 2
+reload: 90
+ammoUseEffect: shellEjectBig
+inaccuracy: 0
+shootCone: 1
+range: 160
+shots: 1
+ammo: {
+  phase-fabric: {
+    damage: 1
+	  speed: 4
+    hitEffect: blastExplosion
+	  knockback: 5
+	  lifetime: 5
+	  bulletWidth: 3
+	  bulletHeight: 9
+	  backColor: 1000aa
+	  frontColor: 1000aa
+	  ammoMultiplier: 6
+	 status: {
+	   damageMultiplier: 0
+	   speedMultuplier: 0
+	   color: blue
+	 }
+  }
+}
+requirements: [
+  surge-alloy/25
+]
+category: turret
+research: a-eliminator
