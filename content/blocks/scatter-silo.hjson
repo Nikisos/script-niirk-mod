@@ -7,8 +7,7 @@ localizedName: "Scatter Silo"
 description: "A player-activatable block that scatters bullets everywhere upon use."
 category: turret
 requirements: [
-  graphite/75,
-  electrum/30
+  graphite/75
 ]
 consumes: {
   items: {
