@@ -1,4 +1,4 @@
-type: Revenant
+type: HoverUnit
  name: EMP fighter
  description: EMP missiles
  drag: 0.1
@@ -23,4 +23,5 @@ type: Revenant
   recoil: 3
   ejectEffect: shellEjectBig
   shootSound: artillery
+  bullet: empMissile
 }
