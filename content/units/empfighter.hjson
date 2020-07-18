@@ -23,5 +23,18 @@ type: HoverUnit
   recoil: 3
   ejectEffect: shellEjectBig
   shootSound: artillery
-  bullet: empMissile
+  bullet: {
+    type: MissileBulletType
+	bulletWidth: 9
+	bulletHeight: 13
+	lifetime: 300
+	speed: 3
+	damage: 1
+	frontColor: a488eb
+	backColor: 8b73c7
+	homingPower: 1
+	homingRange: 50
+        status: emp
+        statusDuration: 300
+    }
 }
