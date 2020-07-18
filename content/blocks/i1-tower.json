@@ -13,7 +13,6 @@
   "hasPower": true,
   "firingMoveFract": 0.75,
   "shootDuration": 500,
-  "shootType": "i1-laser",
   "powerUse": 10,
   "coolantMultiplier": 200,
   "requirements": [
