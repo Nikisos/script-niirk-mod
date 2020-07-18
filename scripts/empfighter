@@ -1,5 +1,20 @@
+//Creating a nee effect 'emp'
 const emp = new StatusEffect("emp");
-Zumm.speedMultiplier = 0;
-Zumm.damage = 0;
-Zumm.damageMultiplier = 0;
-Zumm.effect = none; 
+emp.speedMultiplier = 0;
+emp.damage = 0;
+emp.damageMultiplier = 0;
+emp.effect = none;
+//Creating a new bullet 'empMissile'
+const empmissile = extend(missileBulletType);
+empMissile.damage = 1;
+empMissile.bulletWidth = 9;
+bulletHeight = 13;
+empMissile.lifetime = 180;
+empMissile.speed = 3;
+empMissile.frontColor = a488eb;
+empMissile.backColor = 8b73c7;
+empMissile.trailColor = cb00ff;
+empMissile.homingPower = 1;
+empMissile.homingRange = 150;
+empMissile.hitEffect = blastExplosion;
+empMissile.despawnEffect = blastExplosion;
