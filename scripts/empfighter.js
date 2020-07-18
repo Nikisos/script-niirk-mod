@@ -22,17 +22,7 @@ empMissile.status = emp
 empMissile.statusDuration = 300
 //The unit
 const empfighter = extend(hoverUnit)
-empfighter.drag = 0.5
-empfighter.speed = 1
-empfighter.maxSpeed = 2
-empfighter.mass = 3
-empfighter.hitsize = 32
-empfighter.health = 320
-empfighter.flying =  true
-empfighter.rotateWeapon = false
-empfighter.engineOffset = 8
-empgighter.engineSize = 4
-empfighter.rotateSpeed = 3
-empfighter.baseRotateSpeed = 1
-empfighter.shootCone = 60
 empfighter.weapon = empLauncher
+//The weapon
+const empLauncher = extend(weapon)
+empLauncher.bullet = empMissile
