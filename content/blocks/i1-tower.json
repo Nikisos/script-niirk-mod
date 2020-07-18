@@ -1,0 +1,25 @@
+{
+  "type": "LaserTurret",
+  "name": "Inferno Tower",
+  "description": "hmm, interesting",
+  "health": 1234567890,
+  "shootSound": "laserbig",
+  "activeSound": "beam",
+  "range": 80,
+  "reload": 150,
+  "size": 2,
+  "targetAir": true,
+  "heatColor": "ff0000",
+  "hasPower": true,
+  "firingMoveFract": 0.75,
+  "shootDuration": 500,
+  "shootType": "i1-laser",
+  "powerUse": 10,
+  "coolantMultiplier": 200,
+  "requirements": [
+    { "item": "copper", "amount": 750 },
+    { "item": "lead", "amount": 750 }
+  ],
+  "category": "turret",
+  "research": "meltdown"
+}
