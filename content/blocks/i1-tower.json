@@ -1,5 +1,5 @@
 {
-  "type": "LaserTurret",
+  "type": "powerTurret",
   "name": "Inferno Tower",
   "description": "hmm, interesting",
   "health": 1234567890,
