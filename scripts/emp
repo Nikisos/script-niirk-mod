@@ -1,0 +1,5 @@
+const emp = new StatusEffect("emp");
+Zumm.speedMultiplier = 0;
+Zumm.damage = 0;
+Zumm.damageMultiplier = 0;
+Zumm.effect = none; 
