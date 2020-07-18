@@ -6,6 +6,7 @@
   "shootSound": "laserbig",
   "activeSound": "beam",
   "range": 80,
+  "damage": 10,
   "reload": 150,
   "size": 2,
   "targetAir": true,
