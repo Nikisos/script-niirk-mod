@@ -5,7 +5,7 @@ emp.damage = 0;
 emp.damageMultiplier = 0;
 emp.effect = none;
 //Creating a new bullet 'empMissile'
-const empmissile = extend(missileBulletType);
+const empMissile = extend(missileBulletType);
 empMissile.damage = 1;
 empMissile.bulletWidth = 9;
 bulletHeight = 13;
