@@ -1,6 +1,6 @@
 type: Revenant
  name: EMP fighter
- description: EMP bombs
+ description: EMP missiles
  drag: 0.1
  maxSpeed: 0.5
  speed: 0.1
@@ -23,5 +23,5 @@ type: Revenant
   recoil: 3
   ejectEffect: shellEjectBig
   shootSound: artillery
-  bullet: emp-missile
+  bullet: empMissile
 }
